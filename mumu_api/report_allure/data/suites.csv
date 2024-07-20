@@ -1,0 +1,16 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","0","test_mumu","test_login_mysql_case01","","","","test_login_pandas[get_mysql_login_pandas0]",""
+"skipped","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","0","test_mumu","test_login_mysql_case01","","","","test_login_pandas[get_mysql_login_pandas1]",""
+"passed","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","63","test_mumu","test_car_add_mysql_case04","","","","test_add_mysql_cart[mysql_data0]",""
+"skipped","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","0","test_mumu","test_login_mysql_case01","","","","test_login[mysql_data1]",""
+"skipped","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","0","test_mumu","test_login_mysql_case01","","","","test_login[mysql_data0]",""
+"passed","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","65","test_mumu","test_car_add_mysql_case04","","","","test_add_mysql_cart[mysql_data3]",""
+"skipped","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","0","test_mumu","test_login_excel_case02","","","","test_login_excel_pandas[id-title-class-home-mode-login-readData-dataFormat-ExpectedResults1]",""
+"passed","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","61","test_mumu","test_car_add_mysql_case04","","","","test_add_mysql_cart[mysql_data1]",""
+"passed","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","0","test_mumu","test_car_add_excel_case03","","","","test_add_cart","
+    购物车添加商品
+    :return:
+    "
+"passed","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","65","test_mumu","test_car_add_mysql_case04","","","","test_add_mysql_cart[mysql_data4]",""
+"passed","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","65","test_mumu","test_car_add_mysql_case04","","","","test_add_mysql_cart[mysql_data2]",""
+"passed","Mon Oct 30 11:12:48 CST 2023","Mon Oct 30 11:12:48 CST 2023","0","test_mumu","test_car_add_mysql_case04","","","","test_add_mysql_cart[mysql_data5]",""

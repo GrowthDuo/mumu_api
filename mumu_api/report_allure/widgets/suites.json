@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "4332f9178ed8760d961ca565b3748fbd",
+    "name" : "test_mumu",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 12
+    }
+  } ]
+}

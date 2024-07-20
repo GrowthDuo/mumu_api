@@ -1,0 +1,76 @@
+{
+  "uid" : "77844f26bb9f99c0",
+  "name" : "test_login[mysql_data1]",
+  "fullName" : "test_mumu.test_login_mysql_case01#test_login",
+  "historyId" : "0386ed05002538f0a66c11c746a2b618",
+  "time" : {
+    "start" : 1698635568874,
+    "stop" : 1698635568874,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\Software\\\\python\\\\test_api\\\\mumu_api\\\\test_mumu\\\\test_login_mysql_case01.py', 18, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_login_token",
+    "time" : {
+      "start" : 1698635568445,
+      "stop" : 1698635568513,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_mumu"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_mysql_case01"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GALJ22DB"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mumu.test_login_mysql_case01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mysql_data",
+    "value" : "('login_002', '错误的登录', '登录', '/loginWithJwt', 'get', '0', '{\"userName\":\"imooc\",\"password\":\"12345679\"}', 'params', None)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "77844f26bb9f99c0.json",
+  "parameterValues" : [ "('login_002', '错误的登录', '登录', '/loginWithJwt', 'get', '0', '{\"userName\":\"imooc\",\"password\":\"12345679\"}', 'params', None)" ]
+}

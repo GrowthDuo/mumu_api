@@ -1,0 +1,117 @@
+{
+  "uid" : "c1d29e8e68d3e055",
+  "name" : "test_add_mysql_cart[mysql_data3]",
+  "fullName" : "test_mumu.test_car_add_mysql_case04#test_add_mysql_cart",
+  "historyId" : "fcddacf3b936a3bcf422f632917f3268",
+  "time" : {
+    "start" : 1698635568727,
+    "stop" : 1698635568792,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1698635568726,
+      "stop" : 1698635568726,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_login_token",
+    "time" : {
+      "start" : 1698635568445,
+      "stop" : 1698635568513,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "mysql_data",
+    "time" : {
+      "start" : 1698635568726,
+      "stop" : 1698635568726,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed6a61964869a397",
+      "name" : "stdout",
+      "source" : "ed6a61964869a397.txt",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_mumu"
+  }, {
+    "name" : "suite",
+    "value" : "test_car_add_mysql_case04"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GALJ22DB"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mumu.test_car_add_mysql_case04"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mysql_data",
+    "value" : "('cart-controller_04', '\\n全选择/全不选择购物车的某商品', '购物车', '/cart/selectAll', 'post', '1', '{\"selected\":3}', 'json', None)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1d29e8e68d3e055.json",
+  "parameterValues" : [ "('cart-controller_04', '\\n全选择/全不选择购物车的某商品', '购物车', '/cart/selectAll', 'post', '1', '{\"selected\":3}', 'json', None)" ]
+}

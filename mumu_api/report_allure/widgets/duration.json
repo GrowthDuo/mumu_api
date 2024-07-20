@@ -1,0 +1,121 @@
+[ {
+  "uid" : "861adf1657d97b18",
+  "name" : "test_login_pandas[get_mysql_login_pandas0]",
+  "time" : {
+    "start" : 1698635568876,
+    "stop" : 1698635568876,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d8cecb76038b8e74",
+  "name" : "test_login_pandas[get_mysql_login_pandas1]",
+  "time" : {
+    "start" : 1698635568878,
+    "stop" : 1698635568878,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aa4ad4da4dd6f305",
+  "name" : "test_add_mysql_cart[mysql_data0]",
+  "time" : {
+    "start" : 1698635568527,
+    "stop" : 1698635568590,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77844f26bb9f99c0",
+  "name" : "test_login[mysql_data1]",
+  "time" : {
+    "start" : 1698635568874,
+    "stop" : 1698635568874,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "346ee4f38193a429",
+  "name" : "test_login[mysql_data0]",
+  "time" : {
+    "start" : 1698635568872,
+    "stop" : 1698635568872,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d29e8e68d3e055",
+  "name" : "test_add_mysql_cart[mysql_data3]",
+  "time" : {
+    "start" : 1698635568727,
+    "stop" : 1698635568792,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "253e4ea314c2654e",
+  "name" : "test_login_excel_pandas[id-title-class-home-mode-login-readData-dataFormat-ExpectedResults1]",
+  "time" : {
+    "start" : 1698635568871,
+    "stop" : 1698635568871,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ae176e56aa8d7295",
+  "name" : "test_add_mysql_cart[mysql_data1]",
+  "time" : {
+    "start" : 1698635568593,
+    "stop" : 1698635568654,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d70c77f4dbb404",
+  "name" : "test_add_cart",
+  "time" : {
+    "start" : 1698635568524,
+    "stop" : 1698635568524,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1793a24fdea240d7",
+  "name" : "test_add_mysql_cart[mysql_data4]",
+  "time" : {
+    "start" : 1698635568796,
+    "stop" : 1698635568861,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41bfb50afa1dde73",
+  "name" : "test_add_mysql_cart[mysql_data2]",
+  "time" : {
+    "start" : 1698635568658,
+    "stop" : 1698635568723,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d7707990b5648ed",
+  "name" : "test_add_mysql_cart[mysql_data5]",
+  "time" : {
+    "start" : 1698635568866,
+    "stop" : 1698635568866,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

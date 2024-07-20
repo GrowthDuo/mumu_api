@@ -1,0 +1,100 @@
+{
+  "uid" : "c1d70c77f4dbb404",
+  "name" : "test_add_cart",
+  "fullName" : "test_mumu.test_car_add_excel_case03#test_add_cart",
+  "historyId" : "14d49fcbb5e0c5c3fe0411be40c909b6",
+  "time" : {
+    "start" : 1698635568524,
+    "stop" : 1698635568524,
+    "duration" : 0
+  },
+  "description" : "\n    购物车添加商品\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>购物车添加商品\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1698635568514,
+      "stop" : 1698635568514,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_params",
+    "time" : {
+      "start" : 1698635568514,
+      "stop" : 1698635568522,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_login_token",
+    "time" : {
+      "start" : 1698635568445,
+      "stop" : 1698635568513,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_mumu"
+  }, {
+    "name" : "suite",
+    "value" : "test_car_add_excel_case03"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GALJ22DB"
+  }, {
+    "name" : "thread",
+    "value" : "11644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mumu.test_car_add_excel_case03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1d70c77f4dbb404.json",
+  "parameterValues" : [ ]
+}

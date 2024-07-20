@@ -1,0 +1,181 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_mumu",
+    "children" : [ {
+      "name" : "test_car_add_excel_case03",
+      "children" : [ {
+        "name" : "test_add_cart",
+        "uid" : "c1d70c77f4dbb404",
+        "parentUid" : "b0a900d2f149b5a98b760e654d7f2bec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698635568524,
+          "stop" : 1698635568524,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0a900d2f149b5a98b760e654d7f2bec"
+    }, {
+      "name" : "test_car_add_mysql_case04",
+      "children" : [ {
+        "name" : "test_add_mysql_cart[mysql_data0]",
+        "uid" : "aa4ad4da4dd6f305",
+        "parentUid" : "cfd901e3a5e74f10b3ba196254fdd5d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698635568527,
+          "stop" : 1698635568590,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('cart-controller_01', '\\n添加商品到购物车', '购物车', '/cart/add', 'post', '1', '{\"count\":2,\"productId \":3}', 'json', None)" ]
+      }, {
+        "name" : "test_add_mysql_cart[mysql_data1]",
+        "uid" : "ae176e56aa8d7295",
+        "parentUid" : "cfd901e3a5e74f10b3ba196254fdd5d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698635568593,
+          "stop" : 1698635568654,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('cart-controller_02', '删除购物车', '购物车', '/cart/delete', 'post', '1', '{\"productId\":3}', 'json', None)" ]
+      }, {
+        "name" : "test_add_mysql_cart[mysql_data2]",
+        "uid" : "41bfb50afa1dde73",
+        "parentUid" : "cfd901e3a5e74f10b3ba196254fdd5d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698635568658,
+          "stop" : 1698635568723,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('cart-controller_03', '选择/不选择购物车的某商品', '购物车', '/cart/select', 'post', '1', '{\"productId\":3,\"selected\":2}', 'json', None)" ]
+      }, {
+        "name" : "test_add_mysql_cart[mysql_data3]",
+        "uid" : "c1d29e8e68d3e055",
+        "parentUid" : "cfd901e3a5e74f10b3ba196254fdd5d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698635568727,
+          "stop" : 1698635568792,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('cart-controller_04', '\\n全选择/全不选择购物车的某商品', '购物车', '/cart/selectAll', 'post', '1', '{\"selected\":3}', 'json', None)" ]
+      }, {
+        "name" : "test_add_mysql_cart[mysql_data4]",
+        "uid" : "1793a24fdea240d7",
+        "parentUid" : "cfd901e3a5e74f10b3ba196254fdd5d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698635568796,
+          "stop" : 1698635568861,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('cart-controller_05', '更新购物车', '购物车', '/cart/update', 'post', '1', '{\"productId\":3,\"selected\":2}', 'json', None)" ]
+      }, {
+        "name" : "test_add_mysql_cart[mysql_data5]",
+        "uid" : "7d7707990b5648ed",
+        "parentUid" : "cfd901e3a5e74f10b3ba196254fdd5d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698635568866,
+          "stop" : 1698635568866,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('cart-controller_06', '\\n购物车列表', '购物车', '/cart/list', 'post', '0', '0', '0', None)" ]
+      } ],
+      "uid" : "cfd901e3a5e74f10b3ba196254fdd5d7"
+    }, {
+      "name" : "test_login_excel_case02",
+      "children" : [ {
+        "name" : "test_login_excel_pandas[id-title-class-home-mode-login-readData-dataFormat-ExpectedResults1]",
+        "uid" : "253e4ea314c2654e",
+        "parentUid" : "6774620f8c5caa2f9241e816d7164bb7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1698635568871,
+          "stop" : 1698635568871,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'class'", "'ExpectedResults'", "'dataFormat'", "'home'", "'id'", "'login'", "'mode'", "'readData'", "'title'" ]
+      } ],
+      "uid" : "6774620f8c5caa2f9241e816d7164bb7"
+    }, {
+      "name" : "test_login_mysql_case01",
+      "children" : [ {
+        "name" : "test_login[mysql_data0]",
+        "uid" : "346ee4f38193a429",
+        "parentUid" : "b7c910f83bd992465b00e0bb6a76f531",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1698635568872,
+          "stop" : 1698635568872,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('login_001', '正确的登录', '登录', '/loginWithJwt', 'get', '0', '{\"userName\":\"imooc\",\"password\":\"12345678\"}', 'params', None)" ]
+      }, {
+        "name" : "test_login[mysql_data1]",
+        "uid" : "77844f26bb9f99c0",
+        "parentUid" : "b7c910f83bd992465b00e0bb6a76f531",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1698635568874,
+          "stop" : 1698635568874,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('login_002', '错误的登录', '登录', '/loginWithJwt', 'get', '0', '{\"userName\":\"imooc\",\"password\":\"12345679\"}', 'params', None)" ]
+      }, {
+        "name" : "test_login_pandas[get_mysql_login_pandas0]",
+        "uid" : "861adf1657d97b18",
+        "parentUid" : "b7c910f83bd992465b00e0bb6a76f531",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1698635568876,
+          "stop" : 1698635568876,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'login_001', 'title': '正确的登录', 'Class': '登录', 'home': '/loginWithJwt', 'mode': 'get', 'login': '0', 'readData': '{\"userName\":\"imooc\",\"password\":\"12345678\"}', 'dataFormat': 'params', 'ExpectedResults': None}" ]
+      }, {
+        "name" : "test_login_pandas[get_mysql_login_pandas1]",
+        "uid" : "d8cecb76038b8e74",
+        "parentUid" : "b7c910f83bd992465b00e0bb6a76f531",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1698635568878,
+          "stop" : 1698635568878,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'login_002', 'title': '错误的登录', 'Class': '登录', 'home': '/loginWithJwt', 'mode': 'get', 'login': '0', 'readData': '{\"userName\":\"imooc\",\"password\":\"12345679\"}', 'dataFormat': 'params', 'ExpectedResults': None}" ]
+      } ],
+      "uid" : "b7c910f83bd992465b00e0bb6a76f531"
+    } ],
+    "uid" : "4332f9178ed8760d961ca565b3748fbd"
+  } ]
+}
